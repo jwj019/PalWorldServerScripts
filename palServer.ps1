@@ -81,7 +81,7 @@ $timestamp = Get-Timestamp
 Write-Host "$timestamp - Started PalServer.exe!"
 
 # Continuously check if the server is running
-$backupInterval = 15 * 60 # 15 minutes in seconds
+$backupInterval = 30 * 60 # 30 minutes in seconds
 $checkInterval = 10 # Check every 10 seconds
 $backupTimer = 0
 while ($true) {
